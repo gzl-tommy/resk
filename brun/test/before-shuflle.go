@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"resk/infra/algo"
+	"github.com/gzl-tommy/infra/algo"
 )
 
 func main() {

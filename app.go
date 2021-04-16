@@ -1,14 +1,13 @@
 package resk
 
 import (
-	"github.com/gzl-tommy/resk/apis/gorpc"
-	_ "github.com/gzl-tommy/resk/apis/web"
 	_ "github.com/gzl-tommy/account"
-	_ "github.com/gzl-tommy/resk/core/envelopes"
 	"github.com/gzl-tommy/infra"
 	"github.com/gzl-tommy/infra/base"
+	"github.com/gzl-tommy/resk/apis/gorpc"
+	_ "github.com/gzl-tommy/resk/apis/web"
+	_ "github.com/gzl-tommy/resk/core/envelopes"
 	"github.com/gzl-tommy/resk/jobs"
-	_ "github.com/gzl-tommy/resk/public/ui"
 )
 
 func init() {
