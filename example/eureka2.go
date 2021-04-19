@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/tietang/go-eureka-client/eureka"
-	"github.com/tietang/props/ini"
+	"github.com/tietang/props/v3/ini"
 )
 
 func main() {

@@ -1,10 +1,10 @@
 package testx
 
 import (
-	"github.com/tietang/props/ini"
-	"github.com/tietang/props/kvs"
 	"github.com/gzl-tommy/infra"
 	"github.com/gzl-tommy/infra/base"
+	"github.com/tietang/props/v3/ini"
+	"github.com/tietang/props/v3/kvs"
 )
 
 func init() {
@@ -13,7 +13,7 @@ func init() {
 	//加载和解析配置文件
 	conf := ini.NewIniFileCompositeConfigSource(file)
 	base.InitLog(conf)
-	
+
 	infra.Register(&base.PropsStarter{})
 	infra.Register(&base.DbxDatabaseStarter{})
 	infra.Register(&base.ValidatorStarter{})
