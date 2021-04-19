@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/tietang/go-eureka-client/eureka"
+	"github.com/gzl-tommy/go-eureka-client/eureka"
 	"time"
 )
 
